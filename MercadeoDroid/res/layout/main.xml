@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <RelativeLayout android:id="@+id/RelativeLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/fondomercadeo"
+	xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left">
+      <Button android:layout_width="wrap_content" android:id="@+id/button2" android:layout_height="wrap_content" android:text="Limpiar" android:layout_alignBaseline="@+id/button1" android:layout_alignBottom="@+id/button1" android:layout_toRightOf="@+id/button1" android:layout_marginLeft="38dp"></Button>
+      <Button android:id="@+id/button1" android:onClick="myClickHandler" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Grabar" android:layout_alignParentBottom="true" android:layout_toRightOf="@+id/textView3" android:layout_marginLeft="21dp"></Button>
+      <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/editText2" android:layout_above="@+id/button2" android:layout_alignParentRight="true" android:layout_marginBottom="32dp" android:layout_alignLeft="@+id/button1"></EditText>
+      <Spinner android:layout_width="match_parent" android:id="@+id/spinner1" android:layout_height="wrap_content" android:layout_above="@+id/editText2" android:layout_alignParentRight="true" android:layout_marginBottom="14dp" android:layout_alignLeft="@+id/editText2" android:numeric="integer" android:inputType="number"></Spinner>
+      <TextView android:id="@+id/textView2" android:layout_height="wrap_content" style="@style/BlackSubHeader" android:layout_width="wrap_content" android:text="@string/text_base" android:layout_alignTop="@+id/spinner3" android:layout_alignParentLeft="true" android:layout_marginLeft="14dp"></TextView>
+      <TextView android:id="@+id/textView3" android:layout_height="wrap_content" style="@style/BlackSubHeader" android:layout_width="wrap_content" android:text="@string/text_material" android:layout_below="@+id/spinner3" android:layout_alignLeft="@+id/textView2"></TextView>
+      <TextView android:id="@+id/textView4" android:layout_height="wrap_content" style="@style/BlackSubHeader" android:layout_width="wrap_content" android:text="@string/text_tipo" android:layout_below="@+id/spinner2" android:layout_alignLeft="@+id/textView3"></TextView>
+      <TextView android:id="@+id/textView5" android:layout_height="wrap_content" style="@style/BlackSubHeader" android:layout_width="wrap_content" android:text="@string/text_precio" android:layout_below="@+id/spinner1" android:layout_alignLeft="@+id/textView4"></TextView>
+      <TextView android:id="@+id/textView1" android:layout_height="wrap_content" style="@style/BlackSubHeader" android:layout_width="wrap_content" android:text="@string/text_tienda" android:layout_alignTop="@+id/editText1" android:layout_alignRight="@+id/textView5"></TextView>
+      <Spinner android:layout_width="wrap_content" android:id="@+id/spinner2" android:layout_height="wrap_content" android:layout_above="@+id/spinner1" android:layout_alignParentRight="true" android:layout_alignLeft="@+id/spinner1"></Spinner>
+      <Spinner android:layout_width="match_parent" android:id="@+id/spinner3" android:layout_height="wrap_content" android:layout_above="@+id/spinner2" android:layout_alignParentRight="true" android:layout_alignLeft="@+id/spinner2"></Spinner>
+      <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editText1" android:layout_above="@+id/spinner3" android:layout_alignParentRight="true" android:layout_alignLeft="@+id/spinner3">
+          <requestFocus></requestFocus>
+      </EditText>
+ </RelativeLayout>

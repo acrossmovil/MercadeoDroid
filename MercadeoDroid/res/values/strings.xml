@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MercadeoDroidActivity!</string>
+    <string name="app_name">MercadeoDroid</string>
+    <string name="prueba_name">ActivitiPrueba</string>
+    <string name="camara_name">CameraDroidActivity</string>
+    <string name="text_prueba">Hola Funka la Activity</string>
+    <string name="text_base">Base</string>
+    <string name="text_tipo">Tipo</string>
+    <string name="text_material">Material</string>
+    <string name="text_tienda">Tienda</string>
+    <string name="text_precio">Precio</string>
+ </resources>

@@ -1,0 +1,23 @@
+<resources>
+	<string-array name="tipos">
+		<item>Seleccione</item>
+		<item>Chalas</item>
+		<item>Zapatos</item>
+		<item>Botines</item>
+		<item>Botas</item>
+	</string-array>
+	<string-array name="material">
+		<item>Seleccione</item>
+		<item>cuero</item>
+		<item>sintetico</item>
+		<item>capellado</item>
+	</string-array>
+	<string-array name="base">
+		<item>Seleccione</item>
+		<item>sin taco</item>
+		<item>corcho</item>
+		<item>taco chino</item>
+		<item>plataforma</item>
+		<item>taco aguja</item>
+	</string-array>
+</resources>
